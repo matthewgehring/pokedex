@@ -4,6 +4,12 @@
 
 }
 
+footer{
+	padding: 20px;
+	text-align: center;
+	clear:both;
+}
+
 
 
 @media all {
