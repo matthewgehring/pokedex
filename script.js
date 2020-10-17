@@ -11,7 +11,7 @@ const enter = document.getElementById('yellowBox2');
 let GLOBALCANINPUT = true;
 
 keys.addEventListener('click', e =>{
-    if(GLOBALCANINPUT && e.target.matches('.blueButton')){
+    if(GLOBALCANINPUT && e.target.matches('.inputButton')){
         input.value += e.target.id;
     }
 })

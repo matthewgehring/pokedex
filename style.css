@@ -763,6 +763,10 @@
 		left: 49px;
 	}
 
+	div.inner{
+		padding-top:7px;
+	}
+
 	div.blueButton
 	{
 		height: 35px;
@@ -788,6 +792,9 @@
 		-webkit-box-shadow: -1px 2px #001c91;
 		-moz-box-shadow: -1px 2px #001c91;
 		-o-box-shadow: -1px 2px #001c91;
+	}
+	div.blueButton:active{
+		box-shadow: inset 0px 0px 5px #003796;
 	}
 
 	div#barbutton3
@@ -904,6 +911,9 @@
 		background-color: #ffff00;
 		text-align: center;
 		font-family: Impact;
+		font-size: 20px;
+		color: #ff99006e;
+		
 
 		position: absolute;
 		top: 415px;
@@ -919,6 +929,13 @@
 		-moz-box-shadow: 0 0 20px #ff6600 inset;
 		-o-box-shadow: 0 0 20px #ff6600 inset;
 	}
+	div#yellowBox1:active{
+		box-shadow: inset 0px 0px 5px #ff9900;
+	}
+
+	div#yellowBox2:active{
+		box-shadow: inset 0px 0px 5px #ff9900;
+	}
 
 	div#yellowBox2
 	{
@@ -928,6 +945,8 @@
 		background-color: #ffff00;
 		text-align: center;
 		font-family: Impact;
+		font-size: 20px;
+		color: #ff99006e;
 
 		position: absolute;
 		top: 415px;
@@ -943,6 +962,11 @@
 		-moz-box-shadow: 0 0 20px #ff6600 inset;
 		-o-box-shadow: 0 0 20px #ff6600 inset;
 	}
+
+	div.innerYellow{
+		padding-top:20px;
+	}
+
 
 }
 
