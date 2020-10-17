@@ -729,6 +729,9 @@
 		z-index: 1;
 		font-size: 13px;
 		font-family: arial, sans-serif;
+		overflow-y: scroll;
+		scrollbar-width: none; /* Firefox */
+		-ms-overflow-style: none;  /* Internet Explorer 10+ */
 
 		position: absolute;
 		top: 130px;
@@ -743,6 +746,11 @@
 		-webkit-box-shadow: 0 0 20px #003300 inset;
 		-moz-box-shadow: 0 0 20px #003300 inset;
 		-o-box-shadow: 0 0 20px #003300 inset;
+	}
+
+	div#stats::-webkit-scrollbar { /* WebKit */
+		width: 0;
+		height: 0;
 	}
 
 	div#blueButtons1
