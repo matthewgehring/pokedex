@@ -8,7 +8,7 @@ const keys = document.querySelector(".blueButtons");
 const input = document.getElementById("idInput");
 const newSearch = document.getElementById('yellowBox1');
 const enter = document.getElementById('yellowBox2');
-let GLOBALCANINPUT = false;
+let GLOBALCANINPUT = true;
 
 keys.addEventListener('click', e =>{
     if(GLOBALCANINPUT && e.target.matches('.blueButton')){
